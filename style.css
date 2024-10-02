@@ -1,0 +1,35 @@
+body {
+   background-color: aqua;
+   color: rgb(8, 12, 12);
+   font-family: "Oswald", sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 700px;
+   margin: 0;
+}
+
+button {
+   background-color: rgb(131, 134, 134);
+   color: rgb(56, 85, 85);
+   font-family: "Oswald", sans-serif;
+   font-size: 18px;
+}
+
+.passo {
+   display: none;
+}
+
+.passo.ativo {
+   display: block;
+}
+
+main {
+   text-align: center;
+   max-width: 90%;
+   font-size: 20px;
+}
+
+img {
+   max-width: 50%;
+}
